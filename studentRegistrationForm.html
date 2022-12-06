@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Registration Form </title>
+    
+  </head>
+<style>
+  body {
+    background-color: rgb(195, 238, 238);
+  }
+  h1 {
+    border-style: solid;
+    border-width:3px;
+    border-color: rgb(119, 13, 146);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(219, 126, 126);
+    text-shadow: 3px 1px 2px;
+    box-shadow: 20px 10px 20px;
+    width: 500px;
+    border-radius: 15px;
+     }
+     label {
+      color: blue;
+     }
+     input[type="text"],[type="number"],[type="week"],[type="email"],[type="date"],[type="password"] {
+      color: rgb(173, 13, 13);
+      text-transform: capitalize;
+      border-radius: 15px;
+      width: 180px;
+      height: 18px;
+      padding: 3px;
+     }
+     button{
+      background-color: rgb(138, 184, 13);
+      border-radius: 15px;
+     }
+     option{
+      color: rgb(129, 73, 3);
+      background-color: rgb(61, 139, 211);
+     }
+     textarea:hover{
+      background-color: rgb(228, 179, 203);
+     }
+     
+    
+</style>
+  
+  <body>
+    <h1> Student Registration Form </h1>
+      <table> 
+        <tbody>
+            <tr>
+                <td> <label> First Name </label></td>
+                <td> <input type="text" placeholder=" Capital letter only" required  </td>
+            </tr>
+            <tr>
+                <td> <label> Last Name </label></td>
+                <td> <input type="text" </td>
+            </tr>
+            <tr>
+                <td> <label> Age</label></td>
+                <td> <input type="number" placeholder="only numbers" </td>
+            </tr>
+            <tr> 
+                <td> <label> State </label></td>
+                <td> <input type="text" value="MH" readonly </td>
+            </tr>
+            <tr> 
+                <td> <label> country </label></td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+              <td> <label> Mobile Number</label> </td>
+              <td> <input type="number" placeholder="Max 10 digits">  </td>
+            </tr>
+            <tr>
+              <td> <label> Email ID  </label>  </td>
+              <td> <input type="email" placeholder="abc@gmail.com"> </td>
+            </tr>
+  
+            <tr>
+              <td> <label> Password </label> </td>
+              <td> <input type="password">  </td>
+            </tr>
+            
+            <tr>
+              <td> <label> Date of Birth </label> </td>
+              <td> <input type="DATE">  </td>
+            </tr>
+
+            <tr>
+              <td> <label> Available in Week </label> </td>
+              <td> <input type="week">  </td>
+            </tr>
+  
+            <tr>
+              <td> <label> Available in time </label> </td>
+              <td> <input type="time">  </td>
+            </tr>  
+            
+            <tr>
+              <td> <label> Uplode Graduvation Mark Sheet </label> </td>
+              <td> <input type="file" multiple >  </td>
+            </tr> 
+            
+            <tr> 
+              <td><label>Graduation  </label> </td>
+              <td> 
+                  <select>
+                      <option> BE </option>
+                      <option> MCA </option>
+                      <option> BCA  </option>
+                      <option> BSC </option>
+                      <option> B.Tech</option>
+                      <option> BCS </option>
+                      <option> MSC </option>
+                  </select>
+              </td>
+            </tr>
+
+            <tr> 
+              <td> <label> Select Gender </label> </td>
+              <td> 
+                  <input type="radio" name="gender"> <label> Male</label>
+                  <input type="radio" name="gender"> <label> Female </label>
+                  <input type="radio" name="gender"> <label> Others </label>
+              </td>
+            </tr>
+  
+            <tr> 
+              <td> <label> Select Training </label> </td>
+              <td> 
+                 <input type="checkbox"> <label> Angular </label>
+                 <input type="checkbox"> <label> React </label>
+                 <input type="checkbox"> <label> Java </label>
+                 <input type="checkbox"> <label> Data Science </label>
+                 <input type="checkbox"> <label> Manual + Automation Testing </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Feedback</label></td>
+              <td><textarea rows="8" cols="21"></textarea>
+              </td>
+          </tr>
+
+          <tr>
+            <td> <label> Present Address </label> </td>
+            <td> <textarea rows="7" cols="40">  </textarea> </td>
+          </tr>
+           
+          <tr>
+            <td> <button type="submit"> Register </button></td>
+            <td> <button type="reset"> Clear all </button></td>
+          </tr>
+</tbody>
+      </table>
+  </body>
+</html>

@@ -6,16 +6,38 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      body {
+        background-image: url(789.jpg);
+        background-repeat: no;
+        background-size: cover;
+      }
       header .ajax {
-        background-color: cornflowerblue;
+        text-shadow: 5px 3px 4px rgb(168, 152, 141);
         padding-right: 20px;
+        font-family: "Josefin Sans", sans-serif;
       }
       nav .all {
         padding-right: 25px;
       }
       footer .footer {
         padding-right: 15px;
+        font-family: "Josefin Sans", sans-serif;
+        text-shadow: 5px 3px 4px rgb(168, 152, 141);
+      }
+      span {
+        text-shadow: 5px 3px 4px rgb(133, 110, 133);
+      }
+      nav .can {
+        background-color: rgb(83, 51, 114);
+        color: rgb(235, 243, 243);
+        text-shadow: 5px 3px 4px;
       }
     </style>
   </head>
@@ -40,7 +62,7 @@
     <br />
     <nav>
       <span class="all">
-        <a href="home.html" target="MyFrame "> HOME </a>
+        <a href="home.html" target="MyFrame "> <span class="CAN"> HOME </span> </a>
       </span>
       <span class="all">
         <a href="techStack.html" target="MyFrame "> TECH STACK </a>
@@ -62,9 +84,9 @@
 
     <iframe width="1000px" height="500px" name="MyFrame "> </iframe>
     <br />
-    <br />
+
     <footer>
-      <strong> Follow Me </strong> &nbsp; &nbsp; &nbsp;
+      <strong id="free"> Follow Me </strong> &nbsp; &nbsp; &nbsp;
       <span class="footer">
         <i
           class="fa fa-linkedin-square"
